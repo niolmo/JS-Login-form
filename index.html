@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/rest.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>login form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">СОШ №21</h1>
+        <h2 class="header__subtitle">Добро пожаловать!</h2>
+      </header>
+      <main class="page">
+        <p class="page__text">Пожалуйста войдите в систему!</p>
+        <form action="#" method="post" class="page__form form" id="login-form">
+          <svg
+            width="250px"
+            height="250px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="12" cy="9" r="3" stroke="blue" stroke-width="1.5" />
+            <circle cx="12" cy="12" r="10" stroke="blue" stroke-width="1.5" />
+            <path
+              d="M17.9691 20C17.81 17.1085 16.9247 15 11.9999 15C7.07521 15 6.18991 17.1085 6.03076 20"
+              stroke="blue"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+          <div class="form__inputs">
+            <div class="form__email">
+              <label for="email" class="form__label">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form__input"
+                placeholder="Ввидите Email"
+                required
+              />
+            </div>
+
+            <div class="form__password">
+              <label for="password" class="form__label">Пароль</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form__input"
+                placeholder="Ввидите Пароль"
+                required
+              />
+            </div>
+          </div>
+
+          <button type="submit" class="form__button">Войти</button>
+        </form>
+      </main>
+      <footer class="footer">
+        <p class="footer__text">© Николай Морозов 2024</p>
+      </footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

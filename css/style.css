@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "pacifico", cursive;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/10152964.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.page {
+  flex-grow: 1;
+}
+.page__text {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 400;
+  color: blue;
+  line-height: 1;
+  text-align: center;
+}
+
+.header {
+  padding: 50px 15px 0px;
+}
+.header__title {
+  margin-bottom: 5px;
+  font-family: "Pacifico", cursive;
+  color: blue;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+}
+.header__subtitle {
+  border-bottom: 1px solid blue;
+  font-family: "pacifico", cursive;
+  color: blue;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+}
+
+form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form__email, form__password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.form__label {
+  margin: 10px 0px;
+  display: block;
+  font-family: "pacifico", cursive;
+  font-size: 25px;
+  font-weight: 400;
+  color: blue;
+  line-height: 1;
+  text-align: center;
+}
+
+.form__input {
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 300px;
+  font-family: "pacifico", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: blue;
+  line-height: 1;
+  text-align: left;
+}
+.form__input::-moz-placeholder {
+  font-family: "pacifico", cursive;
+  text-align: left;
+  color: blue;
+}
+.form__input::placeholder {
+  font-family: "pacifico", cursive;
+  text-align: left;
+  color: blue;
+}
+
+.form__button {
+  width: 150px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 30px 15px 50px;
+}
+.footer__text {
+  margin-bottom: 5px;
+  color: blue;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
